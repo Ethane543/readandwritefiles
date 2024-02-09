@@ -13,7 +13,7 @@ for rec in employee_file:
 
     print('\n')
     print(f'Name: {rec[1]}')
-    print(f'Salary: $ {salary:.2f}')
-    print(f'Bonus:  $ {bonus:.2f}')
-    print(f'Pay:    $ {pay:.2f}')
+    print(f'Salary: $ {salary:,.2f}')
+    print(f'Bonus:  $  {bonus:,.2f}')
+    print(f'Pay:    $ {pay:,.2f}')
    
